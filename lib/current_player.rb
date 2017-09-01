@@ -3,9 +3,9 @@ def turn_count(board)
   board.each do |space|
     if (space == "X" || space == "O")
       space_occupied += 1
-    end
-    spaced_occupied
+    end    
   end
+  spaces_occupied
 end
 
   def current_player(board)
