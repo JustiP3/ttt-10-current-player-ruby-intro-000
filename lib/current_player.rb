@@ -6,4 +6,13 @@ def turn_count(board)
     end
     spaced_occupied
   end
+
+  def current_player(board)
+    turn = turn_count(board)
+    if (turn % 2 == 0)
+      current_player = "X"
+    else
+      current_player = "O"
+    end
+  end
   
