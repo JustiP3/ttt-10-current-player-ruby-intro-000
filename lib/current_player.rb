@@ -2,8 +2,8 @@ def turn_count(board)
   spaces_occupied = 0
   board.each do |space|
     if (space == "X" || space == "O")
-      space_occupied += 1
-    end    
+      spaces_occupied += 1
+    end
   end
   spaces_occupied
 end
