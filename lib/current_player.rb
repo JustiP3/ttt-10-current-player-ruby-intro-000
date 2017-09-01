@@ -15,4 +15,3 @@ def turn_count(board)
       current_player = "O"
     end
   end
-  
